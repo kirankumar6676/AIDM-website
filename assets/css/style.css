@@ -399,12 +399,12 @@ portfolio card
   position: relative;
   background: url("../img/hero-bg.png") center bottom no-repeat;
   background-size: cover;
-  padding: 130px 0 40px 0;
+  padding: 100px 0 40px 0;
 }
 
 @media (max-width: 991px) {
   #hero {
-    padding: 140px 0 60px 0;
+    padding: 130px 0 60px 0;
   }
 }
 
@@ -609,7 +609,7 @@ section {
 --------------------------------*/
 #about {
   background: #fff;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 #about .about-container .background {
@@ -806,7 +806,7 @@ section {
 
 
 #teams {
-  padding: 60px 0 40px 0;
+  padding: 30px 0 30px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -863,7 +863,7 @@ section {
 
 
 #contact {
-  padding: 60px 0 40px 0;
+  padding: 30px 0 30px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -917,7 +917,7 @@ section {
 }
 
 #why-us {
-  padding: 60px 0;
+  padding: 20px 0;
   background: #004a99;
 }
 
@@ -1200,7 +1200,7 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  padding: 60px 0;
+  padding: 30px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -1289,7 +1289,7 @@ section {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 60px 0;
+  padding: 30px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
