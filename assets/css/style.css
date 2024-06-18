@@ -523,7 +523,7 @@ section {
   text-align: center;
   margin: auto;
   font-size: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   color: #556877;
   width: 50%;
 }
@@ -701,7 +701,7 @@ section {
 }
 
 #services .box {
-  padding: 30px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -760,7 +760,7 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin: 0 10px 20px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
@@ -815,7 +815,7 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin: 0 10px 20px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
@@ -917,7 +917,7 @@ section {
 }
 
 #why-us {
-  padding: 20px 0;
+  /* padding: 20px 0; */
   background: #004a99;
 }
 
@@ -930,7 +930,7 @@ section {
   
   border-radius: 10px;
   margin: 0 15px;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   text-align: center;
   color: #fff;
   transition: 0.3s ease-in-out;
@@ -1399,9 +1399,9 @@ section {
   overflow: hidden;
 }
 
-#contact .section-header {
+/* #contact .section-header {
   padding-bottom: 30px;
-}
+} */
 
 #contact .contact-about h3 {
   font-size: 36px;
