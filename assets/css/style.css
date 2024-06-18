@@ -338,6 +338,59 @@ h6 {
   display: block;
 }
 
+/*
+portfolio card
+*/
+
+
+.profile-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.profile-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #003366;
+}
+.profile-info h4 {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #666;
+}
+.profile-info h4 .role {
+  color: red;
+}
+.profile-info p {
+  margin: 5px 0;
+  color: #333;
+}
+.short-bio {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #333;
+}
+.short-bio a {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.short-bio a:hover {
+  text-decoration: underline;
+}
+.full-bio {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -549,6 +602,9 @@ section {
   }
 }
 
+
+
+
 /* About Us Section
 --------------------------------*/
 #about {
@@ -640,7 +696,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 60px 0 40px 0;
+  padding: 10px 0 10px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -687,6 +743,61 @@ section {
 }
 
 #services .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+
+#testimonials {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#testimonials .box:hover {
+  transform: translateY(-5px);
+}
+
+#testimonials .icon {
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 32px);
+}
+
+#testimonials .icon i {
+  font-size: 64px;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+#testimonials .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#testimonials .title a {
+  color: #111;
+}
+
+#testimonials .box:hover .title a {
+  color: #007bff;
+}
+
+#testimonials .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
